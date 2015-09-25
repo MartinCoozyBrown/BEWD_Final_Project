@@ -1,0 +1,32 @@
+1.2 Class notes
+
+forks-
+there is a main repository, we made fork to our own accounts so now we have our own copies- its the same. as we work on your version will diverge from origenal (why its called a fork). its just a copy, your fork is the "origin" master is a branch on the remote. pull request.
+
+Quiz:
+1. how do I change directories-cd 
+	cd "directory name"- takes you
+	cd ../
+2.what is Git and Github- git is a tool that helps you store a version of, and git hub is repository
+
+3.how do i add file to git
+	git add "name"- adds files one at a time
+	git add.- adds everything 
+4. what is a git hub repository?
+	- is where your local git repositoy is hosted and shard publicly 
+5. what is the correct way push
+	git push origin master
+
+
+Adding a new Git remote URL
+	-git remote add upstream [url of clone]	
+	-git remote -v - make sure things are going ok
+	-git pull upstream master
+
+workflow-
+1.so work, 
+2.add changes, 
+3.commit work,
+4.pull down changes from upstream- git pull upstream maters- if you pull for origin you wont get anything new.
+5.push through your work 
+	you should always spesify the master and branch. 
